@@ -40,6 +40,7 @@ group :development, :test do
   gem 'simplecov'
   gem 'vcr'
   gem 'webmock'
+  gem 'net-http'
   # gem 'timecop'
 end
 
