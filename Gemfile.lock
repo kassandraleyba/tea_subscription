@@ -97,6 +97,8 @@ GEM
     mini_mime (1.1.2)
     minitest (5.18.0)
     msgpack (1.7.1)
+    net-http (0.3.2)
+      uri
     net-imap (0.3.4)
       date
       net-protocol
@@ -219,6 +221,7 @@ GEM
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
     unicode-display_width (2.4.2)
+    uri (0.12.1)
     vcr (6.1.0)
     webmock (3.18.1)
       addressable (>= 2.8.0)
@@ -239,6 +242,7 @@ DEPENDENCIES
   faraday
   figaro
   listen (>= 3.0.5, < 3.2)
+  net-http
   pg (>= 0.18, < 2.0)
   pry
   puma (~> 5.0)
