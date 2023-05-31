@@ -1,24 +1,3 @@
-# README
+# Tea Subscription Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Welcome to the Tea Subscription Service API! This API provides a convenient and seamless way for customers to subscribe to tea subscriptions, manage their subscriptions, and enjoy a delightful tea experience delivered right to their doorstep. Developed using Ruby on Rails, this API ensures a smooth and efficient flow of data, making it easy for Frontend Developers to integrate it into their applications.
