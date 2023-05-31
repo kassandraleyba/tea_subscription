@@ -34,7 +34,7 @@ _Follow the steps below to install and set up this app._
 
 1. Clone this Repository
    ```sh
-   git clone https://github.com/Inner-Worlds/inner_worlds_be
+   git clone git@github.com:kassandraleyba/tea_subscription.git
    ```
 2. In your terminal, run the following commands;
     ```sh
