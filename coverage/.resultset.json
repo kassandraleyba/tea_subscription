@@ -273,13 +273,15 @@
           null
         ]
       },
-      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/app/models/tea.rb": {
+      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/spec/models/subscription_spec.rb": {
         "lines": [
-          1,
-          1,
           1,
           null,
           1,
+          1,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -291,6 +293,59 @@
           null,
           1,
           1,
+          null
+        ]
+      },
+      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/spec/models/tea_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/app/models/tea.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/spec/requests/subscriptions_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -328,6 +383,6 @@
         ]
       }
     },
-    "timestamp": 1685635707
+    "timestamp": 1685637219
   }
 }

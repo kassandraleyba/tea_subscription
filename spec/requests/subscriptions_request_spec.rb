@@ -12,7 +12,7 @@ RSpec.describe "Subscriptions", type: :request do
   describe "/api/v1/customers/:customer_id/subscriptions" do
     it "returns all subscriptions for a customer" do
       get "/api/v1/customers/#{@customer1.id}/subscriptions"
-binding.pry
+
       expect(response).to be_successful
       expect(response.status).to eq(200)
     end

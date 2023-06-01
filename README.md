@@ -39,7 +39,6 @@ _Follow the steps below to install and set up this app._
 2. In your terminal, run the following commands;
     ```sh
     bundle install
-    'rails generate graphql:install'
     rails db:{drop,create,migrate,seed}
     ```
 
@@ -52,8 +51,7 @@ _Follow the steps below to install and set up this app._
 <br />
 
 <div align="center">
-
-  
+   
 </div>
 
 
