@@ -3,5 +3,11 @@ class SubscriptionsSerializer
 
 	set_type :subscription
 
-	attributes :title, :price, :status, :frequency, :customer_id, :tea_id, :tea
+	attributes :title, 
+						 :price, 
+						 :status, 
+						 :frequency, 
+						 :customer_id, 
+						 :tea_id, 
+						 :tea
 end
