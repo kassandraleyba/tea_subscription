@@ -51,9 +51,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-# gem "jsonapi-serializer"
-# gem 'graphiql-rails'
-# gem 'graphql'
+gem "jsonapi-serializer"
 gem 'faker'
 gem 'faraday'
 gem 'figaro'
