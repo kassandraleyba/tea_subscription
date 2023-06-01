@@ -1,5 +1,5 @@
 class SubscriptionsSerializer
-	include JSONAPI::TeasSerializer
+	include JSONAPI::Serializer
 
 	set_type :subscription
 
@@ -8,6 +8,5 @@ class SubscriptionsSerializer
 						 :status, 
 						 :frequency, 
 						 :customer_id, 
-						 :tea_id, 
-						 :tea
+						 :tea_id 
 end
