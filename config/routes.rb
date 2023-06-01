@@ -4,7 +4,6 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :customers, only: [] do
         resources :subscriptions, only: [:index, :create, :destroy]
-        # "/api/v1/customers/:customer_id/subscriptions"
       end
     end
   end
