@@ -16,5 +16,24 @@ RSpec.describe "Subscriptions", type: :request do
       expect(response).to be_successful
       expect(response.status).to eq(200)
     end
+
+    it "returns an error message when a customer does not exist" do
+      get "/api/v1/customers/999/subscriptions"
+    
+      expect(response).to_not be_successful
+      expect(response.status).to eq(404)
+      expect(response.body).to eq("{\"errors\":\"Customer could not be found\"}")
+    end
+
+    it "prompts user to add a subscription if the customer has none" do
+      customer2 = create(:customer)
+
+      get "/api/v1/customers/#{customer2.id}/subscriptions"
+
+      expect(customer2.subscriptions.count).to eq(0)
+      expect(response).to be_successful
+      expect(response.status).to eq(200)
+      expect(response.body).to eq("{\"message\":\"Customer has no subscriptions. Please add subscriptions.\"}")
+    end
   end
 end

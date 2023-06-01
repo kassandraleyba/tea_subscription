@@ -208,10 +208,10 @@
         "lines": [
           1,
           1,
-          2,
-          2,
-          2,
-          2,
+          3,
+          3,
+          3,
+          3,
           null,
           null
         ]
@@ -251,7 +251,6 @@
           null,
           null,
           null,
-          null,
           null
         ]
       },
@@ -273,15 +272,13 @@
           null
         ]
       },
-      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/spec/models/subscription_spec.rb": {
+      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/app/models/tea.rb": {
         "lines": [
           1,
-          null,
           1,
           1,
-          2,
-          2,
           null,
+          1,
           null
         ]
       },
@@ -296,66 +293,17 @@
           null
         ]
       },
-      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/spec/models/tea_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/app/models/tea.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          null
-        ]
-      },
-      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/spec/requests/subscriptions_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/app/controllers/api/v1/subscriptions_controller.rb": {
         "lines": [
           1,
           1,
           1,
-          null,
+          0,
           1,
+          1,
+          0,
+          0,
+          null,
           null,
           null
         ]
@@ -365,24 +313,8 @@
           1,
           null
         ]
-      },
-      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/app/serializers/subscription_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1685637219
+    "timestamp": 1685646958
   }
 }
