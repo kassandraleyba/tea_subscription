@@ -16,4 +16,11 @@ RSpec.describe "Cancel Customer Subscriptions", type: :request do
     expect(response.status).to eq(200)
     expect(JSON.parse(response.body)["message"]).to eq("Subscription successfully cancelled")
   end
+
+  it "cannot delete a subscription for a customer that does not exist" do
+    delete "/api/v1/customers/9999/subscriptions/100"
+
+    expect(response.status).to eq(404)
+    expect(JSON.parse(response.body)["message"]).to eq("Subscription could not be found")
+  end
 end
