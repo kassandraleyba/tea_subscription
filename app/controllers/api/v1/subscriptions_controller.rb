@@ -23,7 +23,7 @@ class Api::V1::SubscriptionsController < ApplicationController
     end
   end
 
-  def destroy
+  def update
     subscription = Subscription.find_by(id: params[:id], customer_id: params[:customer_id])
   
     if subscription
