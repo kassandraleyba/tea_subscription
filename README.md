@@ -50,9 +50,7 @@ _Follow the steps below to install and set up this app._
 
 <br />
 
-<div align="center">
-   
-</div>
+   ![schema](images/schema.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
