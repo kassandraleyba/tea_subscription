@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Subscriptions", type: :request do
+RSpec.describe "Customer Subscriptions", type: :request do
   before do
     @customer1 = create(:customer)
     @tea1 = create(:tea)
@@ -25,7 +25,7 @@ RSpec.describe "Subscriptions", type: :request do
       expect(response.body).to eq("{\"errors\":\"Customer could not be found\"}")
     end
 
-    it "prompts user to add a subscription if the customer has none" do
+    it "prompts user to add a subscription if the customer has no subscriptions" do
       customer2 = create(:customer)
 
       get "/api/v1/customers/#{customer2.id}/subscriptions"

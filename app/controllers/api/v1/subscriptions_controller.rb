@@ -8,4 +8,24 @@ class Api::V1::SubscriptionsController < ApplicationController
       render json: SubscriptionSerializer.new(Customer.find(params[:customer_id]).subscriptions)
     end
   end
+
+  def create
+    subscription = Subscription.new(subscription_params)
+   
+    if subscription.price.nil?
+      render json: { errors: "Price can't be blank" }, status: 400
+    elsif subscription.price <= 0
+        render json: { errors: "Price must be greater than 0" }, status: 400
+    elsif subscription.save
+      render json: SubscriptionSerializer.new(subscription), status: 201
+    else
+      render json: { errors: subscription.errors.full_messages.to_sentence }, status: 400
+    end
+  end
+
+  private
+
+  def subscription_params
+    params.require(:subscription).permit(:title, :price, :status, :frequency, :customer_id, :tea_id)
+  end
 end
