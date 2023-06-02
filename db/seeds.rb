@@ -11,6 +11,10 @@ customer2 = Customer.create(first_name: "Jane", last_name: "Smith", email: "jane
 
 tea1 = Tea.create(title: "Green Tea", description: "Refreshing green tea", temperature: 80, brew_time: 3)
 tea2 = Tea.create(title: "Black Tea", description: "Bold black tea", temperature: 95, brew_time: 5)
+tea3 = Tea.create(title: "Oolong Tea", description: "Fragrant oolong tea", temperature: 90, brew_time: 4)
+tea4 = Tea.create(title: "White Tea", description: "Delicate white tea", temperature: 85, brew_time: 2)
 
 subscription1 = Subscription.create(title: "Monthly Green Tea", price: 10.99, status: 0, frequency: 2, customer: customer1, tea: tea1)
 subscription2 = Subscription.create(title: "Weekly Black Tea", price: 8.99, status: 0, frequency: 0, customer: customer2, tea: tea2)
+subscription3 = Subscription.create(title: "Monthly Oolong Tea", price: 12.99, status: 0, frequency: 2, customer: customer1, tea: tea3)
+subscription4 = Subscription.create(title: "Weekly White Tea", price: 9.99, status: 0, frequency: 0, customer: customer2, tea: tea4)
