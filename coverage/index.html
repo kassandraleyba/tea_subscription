@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-06-01T20:37:00-06:00">2023-06-01T20:37:00-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-06-02T08:25:47-06:00">2023-06-02T08:25:47-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -692,7 +692,7 @@
 
             
 
-            <code class="ruby">  def destroy</code>
+            <code class="ruby">  def update</code>
           </li>
         </div>
       
@@ -3681,7 +3681,7 @@
 
             
 
-            <code class="ruby">        resources :subscriptions, only: [:index, :create, :destroy]</code>
+            <code class="ruby">        resources :subscriptions, only: [:index, :create, :update]</code>
           </li>
         </div>
       
@@ -4648,7 +4648,7 @@
 
             
 
-            <code class="ruby">    delete &quot;/api/v1/customers/#{@customer1[:id]}/subscriptions/#{@subscription1[:id]}&quot;</code>
+            <code class="ruby">    patch &quot;/api/v1/customers/#{@customer1[:id]}/subscriptions/#{@subscription1[:id]}&quot;</code>
           </li>
         </div>
       
@@ -4736,7 +4736,7 @@
 
             
 
-            <code class="ruby">    delete &quot;/api/v1/customers/9999/subscriptions/100&quot;</code>
+            <code class="ruby">    patch &quot;/api/v1/customers/9999/subscriptions/100&quot;</code>
           </li>
         </div>
       

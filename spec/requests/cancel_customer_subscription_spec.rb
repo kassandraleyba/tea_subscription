@@ -10,7 +10,7 @@ RSpec.describe "Cancel Customer Subscriptions", type: :request do
   end
 
   it "can delete a subscription for a customer" do
-    delete "/api/v1/customers/#{@customer1[:id]}/subscriptions/#{@subscription1[:id]}"
+    patch "/api/v1/customers/#{@customer1[:id]}/subscriptions/#{@subscription1[:id]}"
 
     expect(response).to be_successful
     expect(response.status).to eq(200)
@@ -18,7 +18,7 @@ RSpec.describe "Cancel Customer Subscriptions", type: :request do
   end
 
   it "cannot delete a subscription for a customer that does not exist" do
-    delete "/api/v1/customers/9999/subscriptions/100"
+    patch "/api/v1/customers/9999/subscriptions/100"
 
     expect(response.status).to eq(404)
     expect(JSON.parse(response.body)["message"]).to eq("Subscription could not be found")
