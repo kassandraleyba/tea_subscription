@@ -23,6 +23,17 @@ class Api::V1::SubscriptionsController < ApplicationController
     end
   end
 
+  def destroy
+    subscription = Subscription.find_by(id: params[:id], customer_id: params[:customer_id])
+  
+    if subscription
+      subscription.update(status: "inactive")
+      render json: { message: "Subscription successfully cancelled" }, status: 200
+    else
+      render json: { message: "Subscription could not be found" }, status: 404
+    end
+  end
+
   private
 
   def subscription_params

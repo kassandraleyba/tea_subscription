@@ -208,10 +208,10 @@
         "lines": [
           1,
           1,
-          10,
-          10,
-          10,
-          10,
+          12,
+          12,
+          12,
+          12,
           null,
           null
         ]
@@ -220,10 +220,10 @@
         "lines": [
           1,
           1,
-          7,
-          7,
-          1,
-          1,
+          11,
+          11,
+          5,
+          5,
           null,
           null
         ]
@@ -232,10 +232,10 @@
         "lines": [
           1,
           1,
-          12,
-          12,
-          12,
-          12,
+          16,
+          16,
+          16,
+          16,
           null,
           null
         ]
@@ -331,6 +331,36 @@
           1,
           null,
           1,
+          null
+        ]
+      },
+      "/Users/kassandraleyba/turing_work/4mod/projects/tea_subscription/spec/requests/cancel_customer_subscription_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -508,6 +538,17 @@
           null,
           null,
           1,
+          2,
+          null,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
           null,
           1,
           5,
@@ -538,6 +579,6 @@
         ]
       }
     },
-    "timestamp": 1685670210
+    "timestamp": 1685673420
   }
 }
