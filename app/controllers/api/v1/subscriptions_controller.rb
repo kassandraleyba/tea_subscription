@@ -27,13 +27,18 @@ class Api::V1::SubscriptionsController < ApplicationController
     subscription = Subscription.find_by(id: params[:id], customer_id: params[:customer_id])
   
     if subscription
-      subscription.update(status: "inactive")
-      render json: { message: "Subscription successfully cancelled" }, status: 200
+      if subscription.status == "active"
+        subscription.update(status: "inactive")
+        render json: SubscriptionSerializer.new(subscription), status: 200
+      else
+        subscription.update(status: "active")
+        render json: SubscriptionSerializer.new(subscription), status: 200
+      end
     else
       render json: { message: "Subscription could not be found" }, status: 404
     end
   end
-
+  
   private
 
   def subscription_params
