@@ -63,10 +63,18 @@ _Follow the steps below to install and set up this app._
 
 ![get](images/get.png)
 
+<br>
+
 - POST localhost:3000/api/v1/customers/2/subscriptions/
 
 ![post](images/post.png)
 
+<br>
+
 - PATCH localhost:3000/api/v1/customers/1/subscriptions/1
 
 ![patch](images/patch.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br />
