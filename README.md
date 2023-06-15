@@ -57,6 +57,18 @@ _Follow the steps below to install and set up this app._
 
 <br />
 
+### Testing
+
+* This project utilizes RSpec testing
+* After cloning this repo and following the steps above to install all necessary gems and API keys:
+  * Run the entire test suite using the command `bundle exec rspec`
+
+<br />
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br />
+
 # Endpoints
 
 - GET localhost:3000/api/v1/customers/2/subscriptions/
@@ -74,6 +86,28 @@ _Follow the steps below to install and set up this app._
 - PATCH localhost:3000/api/v1/customers/1/subscriptions/1
 
 ![patch](images/patch.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br />
+
+### Contributors
+<table>
+  <tr>
+    <td><img src="https://avatars.githubusercontent.com/kassandraleyba" width="200"></td>
+  </tr>
+  <tr>
+    <td>Kassandra Leyba</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/kassandraleyba">GitHub</a><br>
+      <a href="https://www.linkedin.com/in/kassandra-leyba/">LinkedIn</a>
+    </td>
+  </tr>
+</table>
+
+<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
