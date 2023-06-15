@@ -112,3 +112,8 @@ _Follow the steps below to install and set up this app._
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br />
+
+## Acknowledgements
+* ["The Best README Template" by Github User othneil](https://github.com/othneildrew/Best-README-Template)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
