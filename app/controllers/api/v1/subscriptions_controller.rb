@@ -27,12 +27,10 @@ class Api::V1::SubscriptionsController < ApplicationController
     subscription = Subscription.find_by(id: params[:id], customer_id: params[:customer_id])
   
     if subscription
-      if subscription.status == "active"
-        subscription.update(status: "inactive")
+      if subscription.update(subscription_params)
         render json: SubscriptionSerializer.new(subscription), status: 200
       else
-        subscription.update(status: "active")
-        render json: SubscriptionSerializer.new(subscription), status: 200
+        render json: { message: "Failed to update subscription" }, status: 400
       end
     else
       render json: { message: "Subscription could not be found" }, status: 404
